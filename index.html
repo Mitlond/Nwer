@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="style.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>Anorien</title>
+</head>
+<body>
+<div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:green;width:140px;height:20px;padding:20px; color:#fff">Нажать здесь</div>
+<div class="block1">
+<form action="main.php" method="post">
+<p>Имя Пользователя</p>
+<input type="Text" Name="User"/>
+</form>
+<img src="Hobbit.gif" align="left">
+<a href="#" onclick="toggleInformer(); return false;">Скрыть</a>
+<div id="block1" style="border:1px solid 
+	red; color: green;visibility:visible;" >
+	Скройте этот текст если пожелаете.
+<p><i>Битва Пяти воинств.<br> 
+<p>Нажмите на кнопку, чтобы продемонстрировать подсказки.</p>
+ 
+<button onclick="myFunction()">Кнопка</button>
+<input type="password" maxlength="10" size="20">
+<input type="radio" name="radio" value="Нравится" checked>
+
+<input type="radio" name="radio" value="Не нравится">
+
+<input type="radio" name="radio" value="Ужасно"> 
+<p id="demo"></p>
+<img src="HobbiTT.gif">
+<script src="main.js"></script>
+</body>
+</html>
